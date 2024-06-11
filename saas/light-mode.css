@@ -1,0 +1,85 @@
+body.light-mode,
+body.light-mode .backdrop-wrap,
+body.light-mode .project-showcase .project:hover .tags span,
+body.light-mode section {
+  background-color: #e6ecf5;
+  color: #000;
+}
+body.light-mode .project-showcase .project .tags span {
+  background-color: rgba(230, 236, 245, 0.3764705882);
+  color: #000;
+}
+body.light-mode .about-info-wrapper .about-info-line {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+body.light-mode .about-info-wrapper .about-info-number {
+  background-color: #dbe3ef;
+  color: #000;
+  border-color: rgba(0, 0, 0, 0.05);
+}
+body.light-mode .project-showcase .project {
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+body.light-mode .project-showcase .project .text {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+body.light-mode .sticky-social .social-icon-wrap li a .tooltip,
+body.light-mode #talk-slider .loop-text span,
+body.light-mode .service-wrap .service-title,
+body.light-mode .about-info-wrapper .about-info-item p,
+body.light-mode .hg_menu-sticky .head-navbar .navbar_compo a,
+body.light-mode .btn.icon-btn .btn-text,
+body.light-mode .home-slider .hero-title-heading {
+  color: #000;
+}
+body.light-mode .project-showcase .project .text span,
+body.light-mode .hg-footer .footer-bottom .copyright-text,
+body.light-mode .sticky-back-to-top .text,
+body.light-mode .service-wrap p,
+body.light-mode .home-slider p {
+  color: rgba(0, 0, 0, 0.8);
+}
+body.light-mode .project-showcase .project:hover,
+body.light-mode .about-info-wrapper .about-info-item,
+body.light-mode #about-section .skill_icons .icon,
+body.light-mode .home-slider .img-wrap .profile-img .img {
+  border-color: rgba(0, 0, 0, 0.1);
+}
+body.light-mode .sticky-social .social-icon-wrap li a,
+body.light-mode .hg_menu-sticky .head-navbar .navbar_compo {
+  background-color: rgba(193, 199, 229, 0.25);
+  border-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+}
+body.light-mode .head-navbar-mobile .navbar-toggle,
+body.light-mode .verticle-line,
+body.light-mode #talk-slider .loop-text span::after,
+body.light-mode .hg-footer .footer-bottom img,
+body.light-mode .service-wrap .number::before,
+body.light-mode #about-section .signature,
+body.light-mode #about-slider .loop-text .text,
+body.light-mode .home-about_circle .home-about_circle-text,
+body.light-mode .home-about_circle .home-about_circle-webflow,
+body.light-mode .navbar .navbar-brand {
+  filter: invert(1);
+}
+body.light-mode .project-showcase .project .project-link svg path {
+  stroke: #000;
+}
+body.light-mode .navbar .btn.btn-available {
+  background-color: #dbe3ef !important;
+  color: #000;
+}
+body.light-mode .btn.btn-primary,
+body.light-mode .btn.btn-white.btn-outline-white {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+@media (max-width: 991px) {
+  body.light-mode .sticky-back-to-top .text {
+    background-color: #e6ecf5;
+  }
+  body.light-mode .navbar {
+    background-color: rgba(193, 199, 229, 0.4);
+  }
+}/*# sourceMappingURL=light-mode.css.map */

@@ -1,0 +1,29 @@
+@mixin bodyColor{
+    background-color: #060918;
+    color: #fff;
+}
+@mixin gradientText {
+    background: $themegradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin inlineflexCenter {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin glassEffect{
+    backdrop-filter: blur(30px);
+        background-color: rgba(6, 9, 24, .25);
+        border: 1px solid rgba(255, 255, 255, .1);
+}
+@mixin CardglassEffect{
+    backdrop-filter: blur(40px);
+        background-color: rgba(89, 91, 115, .1);
+        border: 1px solid rgba(255, 255, 255, .1);
+}
